@@ -4,11 +4,11 @@ Lite tankar på svenska som ett underlag för en framtida blogg, kanske!
 
 ## PWA
 
-PWA står för "Progressive Web App" och Service Worker (SW) är en central del av det. Vad är PWA och varför bry sig.
+PWA står för "Progressive Web App" och Service Worker (SW) är en central del av det. Vad är PWA och varför bry sig?
 
 De flesta använder privat sina mobiltelefoner när de ska göra något som t ex ett bankärende. Som bank behöver man möta kunden på den plattformen. Ett alternativ är då att skapa en app som kunden installerar på sin telefon. Tyvärr finns det en del nackdelar med det.
 
-- Kunden är bara villig att göra det om den har en relation med banken och kanske inte då heller. 
+- Kunden är bara villig att göra det om den har en relation med banken och kanske inte då heller. Presumtiva kunder kommer inte att installera den.
 - En app innebär att man behöver göra tre versioner av gränssnittet mot kunden, en för Apple, en för Android och en för webbläsare. Det finns teknik, t ex Flutter, som minskar ansträngningen genom att skriva en gång och sedan bygga för alla tre plattformarna. 
 - Underhållet för en app är omständligare eftersom varje uppdatering måste godkännas av Apple och Google. Ledtiden på flera veckor är vanliga.
 - Om man har någon form av inkomst från appen kan Apple vilja ha en del av kakan.
