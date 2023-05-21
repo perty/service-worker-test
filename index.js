@@ -18,5 +18,9 @@ navigator.serviceWorker.addEventListener('message', (event) => {
     if (event.origin === self.location.origin) {
         // Handle the received message
         console.log('Message received:', event.data);
+        const logList = document.getElementById('log');
+        const li = document.createElement('li');
+        li.textContent = event.data;
+        logList.appendChild(li);
     }
 });

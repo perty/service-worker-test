@@ -27,7 +27,7 @@ Om man vill, så kan man ha sin PWA i App store respektive Google Play.
 
 Så PWA ska ge bästa av båda världar även om vi kanske inte är riktigt där än i alla delar och på alla plattformar. Därav namnet, en PWA måste testa om en feature finns implementerad innan den använder den. Progressivt får den över tid tillgång till fler features. 
 
-Tyvärr fungerar inte allt, trots att det ska göra det. Firefox på desktop ska stödja notifieringar men det är trasigt just nu.
+Tyvärr fungerar inte allt, trots att det ska göra det, enligt dokumentationen. Firefox på desktop ska stödja notifieringar men det är trasigt just nu. Som alltid måste man testa på olika plattformar för att vara säker.
 
 ## Anteckningar
 
@@ -43,6 +43,7 @@ Funderar på om SW enkelt kan meddela appen att något hänt, typ ett meddelande
 - SW bör göra "claim" när den aktiveras.
 - Huvudtråden ska lyssna på "message" event med lyssnare på `navigator.serviceWorker`, inte `window`.
 
+Det finns en version som fungerar på Chrome/Mac desktop och Chrome/Andriod utlagd på [https://artcomputer.se/notification](https://artcomputer.se/notification).
 
 
 

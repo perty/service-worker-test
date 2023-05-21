@@ -10,7 +10,7 @@ self.addEventListener("notificationclick", (event) => {
             .matchAll()
             .then((clientList) => {
                 clientList.forEach(function(client) {
-                    client.postMessage('Message from service worker');
+                    client.postMessage('Notification clicked');
                 });
             })
     );
